@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.disclaimer {
+  margin: 200px 100px;
+  font-family: 'Open Sans';
+}
+
+.disclaimer h1, .disclaimer h2 {
+  color: #E8750F;
+}
+
+@media only screen and (max-width: 425px) {
+  .disclaimer {
+    margin: 100px 20px;
+    font-family: 'Open Sans';
+  }
+  .disclaimer h1, .disclaimer h2 {
+    color: #E8750F;
+  }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 426px) {
+  .disclaimer {
+    margin: 100px 50px;
+    font-family: 'Open Sans';
+  }
+  .disclaimer h1, .disclaimer h2 {
+    color: #E8750F;
+  }
+}
+/*# sourceMappingURL=legalpage.css.map */

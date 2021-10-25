@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact img {
+  position: absolute;
+  z-index: -1;
+  max-width: 100%;
+}
+
+#contact #contact-form {
+  width: 50%;
+  height: 580px;
+  margin-top: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3D5480;
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact #contact-form h1 {
+  padding-left: 10px;
+  color: white;
+  font-size: 2em;
+}
+
+#contact #contact-form form label {
+  color: white;
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact #contact-form form input {
+  width: 100%;
+  padding: 5px 0 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+#contact #contact-form form input::-webkit-input-placeholder {
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact #contact-form form input:-ms-input-placeholder {
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact #contact-form form input::-ms-input-placeholder {
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact #contact-form form input::placeholder {
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact #contact-form form textarea {
+  width: 100%;
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+#contact #contact-form form textarea::-webkit-input-placeholder {
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact #contact-form form textarea:-ms-input-placeholder {
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact #contact-form form textarea::-ms-input-placeholder {
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact #contact-form form textarea::placeholder {
+  font-family: 'Open sans', sans-serif;
+}
+
+#contact #contact-form form .submit {
+  cursor: pointer;
+  color: #3D5480;
+  background-color: white;
+  padding: 10px 25px;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+}
+
+#contact #contact-form form .submit:hover {
+  color: #2a3a58;
+}
+
+#contact .contact-info {
+  background-color: #3D5480;
+  color: white;
+  font-family: 'Open sans', sans-serif;
+}
+
+@media only screen and (max-width: 425px) {
+  #contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact img {
+    display: none;
+  }
+  #contact #contact-form {
+    width: 90%;
+    height: 550px;
+    margin-top: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #3D5480;
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form h1 {
+    padding-left: 0;
+    color: white;
+    font-size: 1.3em;
+  }
+  #contact #contact-form form {
+    margin-left: 25px;
+  }
+  #contact #contact-form form label {
+    color: white;
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form input {
+    width: 80%;
+    padding: 5px 0 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  #contact #contact-form form input::-webkit-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form input:-ms-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form input::-ms-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form input::placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form textarea {
+    width: 80%;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  #contact #contact-form form textarea::-webkit-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form textarea:-ms-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form textarea::-ms-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form textarea::placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form .submit {
+    padding: 10px 25px;
+  }
+  #contact .contact-info {
+    background-color: #3D5480;
+    color: white;
+    font-family: 'Open sans', sans-serif;
+  }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 426px) {
+  #contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact img {
+    display: none;
+  }
+  #contact #contact-form {
+    width: 90%;
+    height: 550px;
+    margin-top: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #3D5480;
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form h1 {
+    padding-left: 0;
+    color: white;
+    font-size: 1.3em;
+  }
+  #contact #contact-form form {
+    margin-left: 25px;
+  }
+  #contact #contact-form form label {
+    color: white;
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form input {
+    width: 90%;
+    padding: 5px 0 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  #contact #contact-form form input::-webkit-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form input:-ms-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form input::-ms-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form input::placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form textarea {
+    width: 90%;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  #contact #contact-form form textarea::-webkit-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form textarea:-ms-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form textarea::-ms-input-placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form textarea::placeholder {
+    font-family: 'Open sans', sans-serif;
+  }
+  #contact #contact-form form .submit {
+    padding: 10px 25px;
+  }
+  #contact .contact-info {
+    background-color: #3D5480;
+    color: white;
+    font-family: 'Open sans', sans-serif;
+  }
+}
+/*# sourceMappingURL=contactpage-style.css.map */
