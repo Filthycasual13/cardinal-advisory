@@ -18,11 +18,11 @@ function scrollFunction() {
   } else if (currentWidth < 450 ) {
     document.querySelector("#logo").style.width = "200px";
     document.querySelector("#logo").style.height = "45px";
-    document.querySelector("nav").style.background = "rgba(255, 255, 255, 0)";
+    document.querySelector("nav").style.background = "rgba(255, 255, 255)";
   } else {
     document.querySelector("#logo").style.width = "400px";
     document.querySelector("#logo").style.height = "85px";
-    document.querySelector("nav").style.background = "rgba(255, 255, 255, 0)";
+    document.querySelector("nav").style.background = "rgba(255, 255, 255)";
   }
   prevScrollpos = currentScrollPos;
 }
