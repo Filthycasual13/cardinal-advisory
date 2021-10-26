@@ -75,7 +75,7 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: rgba(255, 255, 255, 0);
+  background: #ffffff;
   z-index: 10;
   -webkit-transition: all ease-in-out 0.6s;
   transition: all ease-in-out 0.6s;
@@ -94,7 +94,7 @@ nav .box {
 }
 
 nav #nav-links {
-  width: 600px;
+  width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,7 +111,7 @@ nav #nav-links {
 }
 
 nav #nav-links ul {
-  width: 500px;
+  width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

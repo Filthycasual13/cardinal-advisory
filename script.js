@@ -14,15 +14,15 @@ function scrollFunction() {
   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
     document.querySelector("#logo").style.width = "250px";
     document.querySelector("#logo").style.height = "55px";
-    document.querySelector("nav").style.background = "rgb(255, 255, 255)";
+    // document.querySelector("nav").style.background = "rgb(255, 255, 255)";
   } else if (currentWidth < 450 ) {
     document.querySelector("#logo").style.width = "200px";
     document.querySelector("#logo").style.height = "45px";
-    document.querySelector("nav").style.background = "rgba(255, 255, 255)";
+    // document.querySelector("nav").style.background = "rgba(255, 255, 255)";
   } else {
     document.querySelector("#logo").style.width = "400px";
     document.querySelector("#logo").style.height = "85px";
-    document.querySelector("nav").style.background = "rgba(255, 255, 255)";
+    // document.querySelector("nav").style.background = "rgba(255, 255, 255)";
   }
   prevScrollpos = currentScrollPos;
 }
