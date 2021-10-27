@@ -114,12 +114,6 @@ body {
   color: #2a3a58;
 }
 
-#contact .contact-info {
-  background-color: #3D5480;
-  color: white;
-  font-family: 'Open sans', sans-serif;
-}
-
 @media only screen and (max-width: 425px) {
   #contact {
     display: -webkit-box;

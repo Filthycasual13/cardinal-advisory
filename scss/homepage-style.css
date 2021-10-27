@@ -163,8 +163,29 @@ nav #nav-links ul li a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   max-width: 100%;
-  overflow-x: hidden;
+}
+
+#section-one #container-one {
+  position: absolute;
+  top: 300px;
+  padding: 0 80px;
+  color: #ffffff;
+  z-index: 1;
+}
+
+#section-one #container-one h1 {
+  font-size: 3em;
+}
+
+#section-one #container-one h4 {
+  font-size: 1.1em;
+  position: relative;
+  bottom: 20px;
 }
 
 #section-two {
@@ -182,10 +203,10 @@ nav #nav-links ul li a:hover {
 
 #section-two h1 {
   color: #e8750f;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
-#section-two h3 {
+#section-two h4 {
   width: 50%;
   text-align: center;
   line-height: 2em;
@@ -297,7 +318,7 @@ nav #nav-links ul li a:hover {
 }
 
 #section-three h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   color: #3D5480;
 }
 
@@ -406,9 +427,9 @@ nav #nav-links ul li a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .footer .footer-primary h3 {
@@ -448,6 +469,29 @@ nav #nav-links ul li a:hover {
 
 .footer .footer-primary .quick-links ul li a:hover {
   color: white;
+}
+
+.footer .footer-primary .quick-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #8197c0;
+}
+
+.footer .footer-primary .quick-contact ul {
+  position: relative;
+  bottom: 30px;
+}
+
+.footer .footer-primary .quick-contact ul li {
+  list-style-type: none;
 }
 
 .footer .footer-primary .social a {
