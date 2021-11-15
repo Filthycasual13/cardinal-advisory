@@ -218,10 +218,22 @@ body {
   #contact #contact-form form .submit {
     padding: 10px 25px;
   }
-  #contact .contact-info {
-    background-color: #3D5480;
-    color: white;
-    font-family: 'Open sans', sans-serif;
+  #contact .contact-text {
+    width: 80%;
+    margin-top: 50px;
+    padding: 5px 25px;
+  }
+  #contact .contact-text h1 {
+    position: relative;
+    font-size: 2em;
+  }
+  #contact .contact-text h5 {
+    font-size: 0.9em;
+  }
+  #contact .contact-text .map {
+    width: 300px;
+    height: 185px;
+    border-style: none;
   }
 }
 
@@ -309,10 +321,22 @@ body {
   #contact #contact-form form .submit {
     padding: 10px 25px;
   }
-  #contact .contact-info {
-    background-color: #3D5480;
-    color: white;
-    font-family: 'Open sans', sans-serif;
+  #contact .contact-text {
+    width: 90%;
+    margin-top: 50px;
+    padding: 5px 25px;
+  }
+  #contact .contact-text h1 {
+    position: relative;
+    font-size: 2em;
+  }
+  #contact .contact-text h5 {
+    font-size: 0.9em;
+  }
+  #contact .contact-text .map {
+    width: 350px;
+    height: 225px;
+    border-style: none;
   }
 }
 /*# sourceMappingURL=contactpage-style.css.map */
