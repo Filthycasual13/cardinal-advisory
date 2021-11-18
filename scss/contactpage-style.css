@@ -19,6 +19,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 20px;
 }
 
 #contact img {
@@ -29,8 +30,9 @@ body {
 
 #contact #contact-form {
   width: 35%;
-  height: 580px;
-  margin-top: 40px;
+  height: 425px;
+  margin-top: 100px;
+  padding: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,7 +48,8 @@ body {
 }
 
 #contact #contact-form h1 {
-  padding-left: 10px;
+  position: relative;
+  right: 3%;
   color: white;
   font-size: 2em;
 }
@@ -57,10 +60,10 @@ body {
 }
 
 #contact #contact-form form input {
-  width: 100%;
+  width: 80%;
   padding: 5px 0 5px 10px;
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 #contact #contact-form form input::-webkit-input-placeholder {
@@ -80,10 +83,10 @@ body {
 }
 
 #contact #contact-form form textarea {
-  width: 100%;
+  width: 80%;
   padding-left: 5px;
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 #contact #contact-form form textarea::-webkit-input-placeholder {
@@ -118,8 +121,8 @@ body {
 }
 
 #contact .contact-text {
-  width: 30%;
-  margin-top: 120px;
+  width: 23%;
+  margin-top: 100px;
   padding: 5px 25px;
   color: #ffffff;
   background-color: #3D5480;
